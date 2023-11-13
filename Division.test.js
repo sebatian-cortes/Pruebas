@@ -25,3 +25,8 @@ test('division', () => {
     const result = calculadora.dividir(12, 3)
     expect(result).toBe(4);
 });
+
+test('division', () => {
+    const result = calculadora.dividir(10, 2)
+    expect(result).toBe(5);
+});
